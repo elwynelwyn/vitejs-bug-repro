@@ -1,0 +1,16 @@
+{
+    "name": "external-package-example",
+    "version": "1.0.0",
+    "description": "example of a node_module that causes the error",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "typings": "dist/index.d.ts",
+    "dependencies": {
+      "prop-types": "15.7.2",
+      "classnames": "2.2.6",
+      "react": "17.0.2",
+      "react-modal": "3.12.1",
+      "react-dom": "17.0.2"
+    }
+  }
+  
